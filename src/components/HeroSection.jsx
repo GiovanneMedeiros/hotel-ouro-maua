@@ -18,18 +18,9 @@ export default function HeroSection() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-[1200px] mx-auto px-5 sm:px-6 md:px-10 lg:px-16 w-full flex items-center min-h-screen pt-24 pb-16 sm:pt-28 sm:pb-20 lg:py-0">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-8 w-full flex items-center min-h-screen pt-40 pb-16 sm:pt-44 sm:pb-20 lg:pt-0 lg:pb-0">
         <div className="max-w-[600px] flex flex-col gap-0">
           {/* Badge */}
-          <div className="animate-fade-in-up mb-5 sm:mb-7">
-            <span className="inline-flex items-center gap-2 sm:gap-2.5 bg-white/5 backdrop-blur-sm border border-gold/20 rounded-full px-3.5 sm:px-5 py-1.5 sm:py-2">
-              <span className="w-1.5 h-1.5 bg-gold rounded-full animate-pulse" />
-              <span className="text-gold/90 text-[10px] sm:text-xs font-medium tracking-[0.1em] sm:tracking-[0.15em] uppercase">
-                Hospedagem no centro de Mauá
-              </span>
-            </span>
-          </div>
-
           {/* Title */}
           <h1 className="animate-fade-in-up animation-delay-200 opacity-0 font-heading font-bold text-[1.75rem] sm:text-[2.25rem] md:text-[3rem] lg:text-[3.75rem] text-white leading-[1.1] mb-5 sm:mb-7 max-w-[560px]">
             Conforto e praticidade

@@ -41,7 +41,7 @@ export default function AboutSection() {
 
   return (
     <section id="sobre" className="py-28 lg:py-36 bg-[#F5F5F5]">
-      <div ref={ref} className="max-w-[1200px] mx-auto px-5 sm:px-6 md:px-10 lg:px-16">
+      <div ref={ref} className="max-w-6xl mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
           {/* Imagem */}
           <div

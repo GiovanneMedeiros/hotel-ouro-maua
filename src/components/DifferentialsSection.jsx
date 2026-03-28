@@ -74,7 +74,7 @@ export default function DifferentialsSection() {
 
   return (
     <section id="diferenciais" className="py-28 lg:py-36 bg-[#FAFAFA]">
-      <div className="max-w-[1200px] mx-auto px-5 sm:px-6 md:px-10 lg:px-16">
+      <div className="max-w-6xl mx-auto px-6 md:px-8">
         {/* Header */}
         <div
           ref={ref}

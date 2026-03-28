@@ -87,7 +87,7 @@ export default function TestimonialsSection() {
 
   return (
     <section id="avaliacoes" className="py-24 lg:py-32 bg-white">
-      <div className="max-w-[1200px] mx-auto px-5 sm:px-6 md:px-10 lg:px-16">
+      <div className="max-w-6xl mx-auto px-6 md:px-8">
         {/* Header */}
         <div
           ref={ref}

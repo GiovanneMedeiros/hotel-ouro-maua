@@ -5,7 +5,7 @@ export default function LocationSection() {
 
   return (
     <section id="localizacao" className="py-24 lg:py-32 bg-gray-light">
-      <div ref={ref} className="max-w-[1200px] mx-auto px-5 sm:px-6 md:px-10 lg:px-16">
+      <div ref={ref} className="max-w-6xl mx-auto px-6 md:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Text */}
           <div

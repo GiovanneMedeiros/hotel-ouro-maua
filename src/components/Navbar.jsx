@@ -41,7 +41,7 @@ export default function Navbar() {
             : 'bg-transparent py-3 md:py-5'
         }`}
       >
-        <div className="max-w-[1200px] mx-auto px-5 sm:px-6 md:px-10 lg:px-16 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-6 md:px-8 flex items-center justify-between">
           {/* Logo */}
           <a href="#inicio" className="flex items-center gap-1.5 sm:gap-2 group shrink-0">
             <span className="text-gold font-heading font-bold text-xl sm:text-2xl tracking-tight transition-colors duration-300">

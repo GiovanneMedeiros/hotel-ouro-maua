@@ -18,9 +18,9 @@ export default function CTASection() {
       </div>
 
       {/* Content */}
-      <div ref={ref} className="relative z-10 max-w-3xl mx-auto px-5 sm:px-6 md:px-10 lg:px-16 text-center">
+      <div ref={ref} className="relative z-10 max-w-6xl mx-auto px-6 md:px-8 text-center">
         <div
-          className={`${
+          className={`max-w-3xl mx-auto ${
             isVisible ? 'animate-fade-in-up' : 'opacity-0'
           }`}
         >
